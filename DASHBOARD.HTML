@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="dashboard.css">
+    <title>Nutriyf</title>
+</head>
+<body>
+<section id="sidebar">
+    <a href="#" class="brand">
+        <i class='bx bxs-apple'></i>
+        <span class="text">Nutriyf</span>
+    </a>
+    <ul class="side-menu top">
+        <li class="active">
+            <a href="#">
+                <i class='bx bxs-home' ></i>
+                <span class="text">Dashboard</span>
+            </a>
+        </li>
+        <li>
+            <a href="search-page.html">
+                <i class='bx bxs-search' ></i>
+                <span class="text">Food Search</span>
+            </a>
+        </li>
+        <li>
+            <a href="call.html">
+                <i class='bx bxs-video' ></i>
+                <span class="text">Connect with Consultant</span>
+            </a>
+        </li>
+        <li>
+            <a href="PROFILE.HTML">
+                <i class='bx bxs-user-detail' ></i>
+                <span class="text">Profile</span>
+            </a>
+        </li>
+        <li>
+            <a href="/pu-hackathon/home/index.html">
+                <i class='bx bxs-log-out-circle' ></i>
+                <span class="text">Logout</span>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <i class='bx bxs-chat' ></i>
+                <span class="text">Need support?</span>
+            </a>
+        </li>
+    </ul>
+
+</section>
+<section id="content">
+    <nav>
+        <i class='bx bx-menu' ></i>
+        <a href="#" class="nav-link">Categories</a>
+        <form action="#">
+            <div class="form-input">
+                <input type="search" placeholder="Search...">
+                <button type="submit" class="search-btn"><i class='bx bx-search' ></i></button>
+            </div>
+        </form>
+        <input type="checkbox" id="switch-mode" hidden>
+        <label for="switch-mode" class="switch-mode"></label>
+    </nav>
+    <main>
+        <div class="head-title">
+            <div class="left">
+                <h1>Nutriyf</h1>
+                <ul class="breadcrumb">
+                    <li>
+                        <a href="#">Dashboard</a>
+                    </li>
+                    <li><i class='bx bx-chevron-right' ></i></li>
+                    <li>
+                        <a class="active" href="#">Home</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <ul class="box-info">
+            <li>
+                <i class='bx bxs-calendar-check' ></i>
+                <span class="text">
+                    <h3>0</h3>
+                    <p>Calories</p>
+                </span>
+            </li>
+            <li>
+                <i class='bx bxs-group' ></i>
+                <span class="text">
+                    <h3>9 Days</h3>
+                    <p>Streaks</p>
+                </span>
+            </li>
+            <li>
+                <i class='bx bxs-dollar-circle' ></i>
+                <span class="text">
+                    <h3>0</h3>
+                    <p>Dietician Meeting available</p>
+                </span>
+            </li>
+        </ul>
+        <div class="table-data">
+            <div class="order">
+                <div class="head">
+                    <h3>Recent Meal Plans</h3>
+                    <i class='bx bx-search' ></i>
+                </div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Food Name</th>
+                            <th>Calories</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <img src="img/mixed-vegetable-salad.jpg">
+                                <p>Mixed vegetable Salad</p>
+                            </td>
+                            <td>536 kcal</td>
+                            <td><span class="status completed">Easy</span></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="img/mushroom-omlette.jpg">
+                                <p>Mushroom omlette</p>
+                            </td>
+                            <td>527 kcal</td>
+                            <td><span class="status completed">Easy</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="progress-bar">
+                <h3>Progress</h3>
+                <div class="bar">
+                    <div class="progress" style="width: 70%;"></div>
+                </div>
+                <p>5 days Complete</p>
+            </div>
+        </div>
+    </main>
+</section>
+<script src="dash.js"></script>
+</body>
+</html>
