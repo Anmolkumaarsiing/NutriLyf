@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">    
+    <title>Nutrilyf</title>
+</head>
+<body>
+    <div class="container" id="container">
+        <div class="form-container sign-up">
+        </div>
+        <div class="form-container sign-in">
+            <form id="loginForm">
+                <h1>Sign In</h1>
+                <input type="email" id="email" placeholder="Email">
+                <input type="password" id="password" placeholder="Password">
+                <a href="forgot.html">Forget Your Password?</a>
+                <button type="submit">Sign In</button>
+            </form>
+        </div>
+        <div class="toggle-container">
+            <div class="toggle">
+                <div class="toggle-panel toggle-right">
+                    <h1>New here?</h1>
+                    <p>Create your account to access all features of NutriLyf</p>
+                    <a href="signup.html"><button>sign-up</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('loginForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            var email = document.getElementById('email').value;
+            var password = document.getElementById('password').value;
+            
+            var userData = [
+                { email: 'anmol@gmail.com', password: 'anmol' },
+                { email: 'archana@gmail.com', password: 'archana' },
+                { email: 'harsh@gmail.com', password: 'harsh' },
+                { email: 'mrunali@gmail.com', password: 'mrunali' },
+
+                // Add more user data here as needed
+            ];
+    
+            var validUser = userData.find(function(user) {
+                return user.email === email && user.password === password;
+            });
+    
+            if (validUser) {
+                window.location.href = 'dashboard.html';
+            } else {
+                alert('Invalid email or password');
+            }
+        });
+    </script>
+    
+</body>
+</html>
