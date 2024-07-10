@@ -22,4 +22,3 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
                 alert('Invalid email or password');
             }
         });
-    </script>
