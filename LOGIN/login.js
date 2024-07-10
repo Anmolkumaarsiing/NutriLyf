@@ -17,7 +17,7 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
             });
     
             if (validUser) {
-                window.location.href = '../dashboard/dashboard.html';
+                window.location.href = '../DASHBOARD/DASHBOARD.html';
             } else {
                 alert('Invalid email or password');
             }
