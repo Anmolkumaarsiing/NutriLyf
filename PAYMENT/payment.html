@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Razorpay Payment Integration</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Razorpay Payment Integration</h1>
+        <button id="pay-button">Pay with Razorpay</button>
+
+        <form id="razorpay-form" action="/payment" method="POST">
+            <input type="hidden" name="razorpay_payment_id" id="razorpay_payment_id">
+        </form>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const urlParams = new URLSearchParams(window.location.search);
+            const name = urlParams.get('name');
+            const email = urlParams.get('email');
+            const contact = urlParams.get('contact');
+            const amount = urlParams.get('amount') * 100; // Convert to paise
+
+            document.getElementById('pay-button').onclick = function(e) {
+                var options = {
+                    "key": "rzp_test_tIoRzqbxbxlQkE", // Replace with your Razorpay key ID
+                    "amount": amount, // Amount in paise
+                    "currency": "INR",
+                    "name": "NUTRILYF",
+                    "description": "SUBSCRIPTION",
+                    "image": "https://your-logo-url.com", // Optional
+                    "handler": function (response){
+                        // Handle the payment response
+                        document.getElementById('razorpay_payment_id').value = response.razorpay_payment_id;
+                        document.getElementById('razorpay-form').submit();
+                    },
+                    "prefill": {
+                        "name": name,
+                        "email": email,
+                        "contact": contact
+                    },
+                    "notes": {
+                        "address": "Test Address"
+                    },
+                    "theme": {
+                        "color": "#F37254"
+                    }
+                };
+                var rzp1 = new Razorpay(options);
+                rzp1.open();
+                e.preventDefault();
+            }
+        });
+    </script>
+</body>
+</html>
