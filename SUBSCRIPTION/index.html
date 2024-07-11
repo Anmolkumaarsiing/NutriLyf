@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NutriLyf Subscription Plans</title>
+  <link rel="stylesheet" href="subscription.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Choose Your Plan</h1>
+    <div class="pricing-plans">
+      <div class="plan">
+        <h2>Basic</h2>
+        <p class="price">₹500 / year</p>
+        <ul>
+          <li>Nutrition Plan</li>
+          <li>Daily Nutrition Tracking</li>
+          <li>Access To Recipes</li>
+        </ul>
+        <button id="pay-basic" class="btn" data-amount="50000">Pay now</button>
+      </div>
+      <div class="plan">
+        <h2>Standard</h2>
+        <p class="price">₹1200 / year</p>
+        <ul>
+          <li>Nutrition Plan</li>
+          <li>Daily Nutrition Tracking</li>
+          <li>10 Dietician Meetings</li>
+        </ul>
+        <button id="pay-standard" class="btn" data-amount="120000">Pay now</button>
+      </div>
+      <div class="plan">
+        <h2>Premium</h2>
+        <p class="price">₹2000 / year</p>
+        <ul>
+          <li>Nutrition Plan</li>
+          <li>Daily Nutrition Tracking</li>
+          <li>30 Dietician Meetings</li>
+          <li>Access to Exclusive Content</li>
+        </ul>
+        <button id="pay-premium" class="btn" data-amount="200000">Pay now</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+  <script src="payment.js"></script>
+</body>
+</html>
