@@ -17,7 +17,7 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
             });
     
             if (validUser) {
-                window.location.href = '../DASHBOARD/DASHBOARD.html';
+                window.location.href = 'Anmolkumaarsiing/NutriLyf/DASHBOARD/DASHBOARD.HTML';
             } else {
                 alert('Invalid email or password');
             }
