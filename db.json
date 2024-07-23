@@ -1,0 +1,92 @@
+[
+  {
+    "id": "1",
+    "name": "Apple",
+    "preview": "https://wholefully.com/wp-content/uploads/2019/10/rows-of-apples.jpg",
+    "photos": [
+      "https://wholefully.com/wp-content/uploads/2019/10/rows-of-apples.jpg",
+      "https://img.freepik.com/free-photo/vertical-view-whole-cut-fresh-natural-apples-leaves-black-table_140725-141478.jpg?t=st=1721644461~exp=1721648061~hmac=05e4595a190b425b676f95663eb74a52031cfd758632193da0f6f97fe8ae27ce&w=360",
+      "https://img.freepik.com/free-photo/vertical-view-whole-cut-fresh-red-apples-leaves-black-background_140725-141486.jpg"
+    ],
+    "description": "Fresh apples from Fresh Farms.",
+    "size": [],
+    "isScrap": false,
+    "brand": "Fresh Farms",
+    "price": 50
+  },
+  {
+    "id": "2",
+    "name": "Banana",
+    "preview": "https://img.freepik.com/free-photo/cart-with-delicious-bananas_23-2150830596.jpg?t=st=1721640022~exp=1721643622~hmac=cd09d319aa4796d6fd16dccaec608904315691de7b46bab6adb2e466b76b22bf&w=360",
+    "photos": [
+      "https://img.freepik.com/free-photo/cart-with-delicious-bananas_23-2150830596.jpg?t=st=1721640022~exp=1721643622~hmac=cd09d319aa4796d6fd16dccaec608904315691de7b46bab6adb2e466b76b22bf&w=360",
+      "https://img.freepik.com/premium-photo/exotic-freshness-bananas-resting-vibrant-green-banana-leaves-vertical-mobile-wallpaper_896558-40061.jpg?w=360",
+      "https://img.freepik.com/premium-photo/fresh-organic-banana-fruit-vertical-background_107173-36795.jpg?w=360"
+    ],
+    "description": "Organic bananas from Organic Bananas.",
+    "size": [],
+    "isScrap": false,
+    "brand": "Organic Bananas",
+    "price": 30
+  },
+  {
+    "id": "3",
+    "name": "Carrot",
+    "preview": "https://gardenerspath.com/wp-content/uploads/2020/03/Harvested-Carrots-on-a-Wooden-Surface.jpg",
+    "photos": [
+      "https://gardenerspath.com/wp-content/uploads/2020/03/Harvested-Carrots-on-a-Wooden-Surface.jpg",
+      "https://img.freepik.com/premium-photo/carrot-harvest-vibrant-fresh-carrots-field-vertical-mobile-wallpaper_795881-32650.jpg?w=360",
+      "https://img.freepik.com/premium-photo/bunch-fresh-carrots-table_434193-287.jpg?w=360"
+    ],
+    "description": "Fresh carrots from Healthy Veggies.",
+    "size": [],
+    "isScrap": false,
+    "brand": "Healthy Veggies",
+    "price": 20
+  },
+  {
+    "id": "4",
+    "name": "Scrap Metal",
+    "preview": "https://www.shutterstock.com/shutterstock/photos/2159153223/display_1500/stock-photo-metal-scrap-yard-in-an-industrial-area-vertical-2159153223.jpg",
+    "photos": [
+      "https://www.shutterstock.com/shutterstock/photos/2159153223/display_1500/stock-photo-metal-scrap-yard-in-an-industrial-area-vertical-2159153223.jpg",
+      "https://img.freepik.com/free-photo/dirty-dumped-objects-arrangement_23-2148996942.jpg?w=740&t=st=1721644660~exp=1721645260~hmac=81a1bf2ec895490020034bf5c1e84bada4bca7be60e001f1525ad079f05a4bb1",
+      "https://img.freepik.com/premium-photo/pile-rusted-metal-suitable-industrial-concepts_153912-47410.jpg?w=360"
+    ],
+    "description": "Scrap metal from Recycle Co.",
+    "size": [],
+    "isScrap": true,
+    "brand": "Recycle Co.",
+    "price": 200
+  },
+  {
+    "id": "5",
+    "name": "Scrap Plastic",
+    "preview": "https://media.istockphoto.com/id/1418118095/photo/a-pile-of-scrap-metal-and-trash-with-some-more-pouring-onto-the-pile-at-a-dump.jpg?s=612x612&w=0&k=20&c=RId8JQRyITjpJGLSF3LDW_Y9ZlJUlQULm7LEzcR70kQ=",
+    "photos": [
+      "https://media.istockphoto.com/id/1418118095/photo/a-pile-of-scrap-metal-and-trash-with-some-more-pouring-onto-the-pile-at-a-dump.jpg?s=612x612&w=0&k=20&c=RId8JQRyITjpJGLSF3LDW_Y9ZlJUlQULm7LEzcR70kQ=",
+      "https://www.shutterstock.com/shutterstock/photos/711616072/display_1500/stock-photo-august-odessa-ukraine-the-vertical-view-of-plastic-garbage-pollution-bags-and-bottles-711616072.jpg",
+      "https://c7.alamy.com/comp/CF39DM/plastic-bottles-in-a-recycle-bin-CF39DM.jpg"
+    ],
+    "description": "Scrap plastic from Recycle Co.",
+    "size": [],
+    "isScrap": true,
+    "brand": "Recycle Co.",
+    "price": 150
+  },
+  {
+    "id": "6",
+    "name": "Potato",
+    "preview": "https://thumbs.dreamstime.com/z/potato-vertical-6177469.jpg",
+    "photos": [
+      "https://thumbs.dreamstime.com/z/potato-vertical-6177469.jpg",
+      "https://img.freepik.com/premium-photo/raw-potato-food-fresh-potatoes-sack-blue-background-vertical_255585-3476.jpg?w=360",
+      "https://img.freepik.com/premium-photo/healthy-organic-produce-freshly-harvested-potatoes-farmers-field-vertical-mobile-wallpaper_795881-37085.jpg?w=360"
+    ],
+    "description": "Fresh potatoes from Organic Farm.",
+    "size": [],
+    "isScrap": false,
+    "brand": "Organic Farm",
+    "price": 30
+  }
+]
